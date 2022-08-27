@@ -8,7 +8,7 @@ let params = {
 }
 
 let a = 0;
-let numeroElementi = 230;
+let numeroElementi = 250;
 let sino = 1;
 let coloress = [255, 200, 255, 100];
 var canvas;
@@ -162,7 +162,7 @@ function setup() {
 
 function draw() {
   colorMode(RGB, 255);
-  fill(color(0, 0, 0, 50));
+  fill(color(232, 236, 242, 100));
   rect(0, 0, width, height);
 
   boids.forEach(
